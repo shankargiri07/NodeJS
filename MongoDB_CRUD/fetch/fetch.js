@@ -11,7 +11,7 @@ var mongodb = require("mongodb");
 var ashokIT = mongodb.MongoClient;
 //create the module 
 var fetch = express.Router().get("/", function (req, res) {
-    ashokIT.connect("mongodb+srv://shankargirisl2000:<password>@cluster0.pwmuppa.mongodb.net/?retryWrites=true&w=majority", function (err, connection) {
+    ashokIT.connect("mongodb+srv://shankargirisl2000:<password>@cluster0.0utfgjb.mongodb.net/?retryWrites=true&w=majority", function (err, connection) {
         if (err)
             throw err;
         else {

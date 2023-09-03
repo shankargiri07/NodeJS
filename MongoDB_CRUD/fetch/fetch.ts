@@ -12,7 +12,7 @@ let ashokIT:any = mongodb.MongoClient;
 
 //create the module 
 let fetch:any = express.Router().get("/", (req:any, res:any):any => {
-    ashokIT.connect("mongodb+srv://shankargirisl2000:<password>@cluster0.pwmuppa.mongodb.net/?retryWrites=true&w=majority", (err:any, connection:any):any => {
+    ashokIT.connect("mongodb+srv://shankargirisl2000:<password>@cluster0.0utfgjb.mongodb.net/?retryWrites=true&w=majority", (err:any, connection:any):any => {
         if(err) throw err;
         else {
             let db:any = connection.db('store')
